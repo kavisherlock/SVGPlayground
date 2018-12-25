@@ -1,0 +1,36 @@
+html {
+  height: auto;
+  min-height: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  background: lavenderblush;
+  margin: 0;
+  padding: 20px;
+  font-family: 'ABeeZee', 'Helvetica', sans-serif;
+  line-height: 1;
+}
+
+a {
+  text-decoration: none;
+  color: #2D6DA2;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #16A085;
+}
+
+h1 {
+  font-family: 'Homemade Apple';
+  font-size: 2em;
+}
+
+footer {
+  padding: 20px;
+  text-align: right;
+}

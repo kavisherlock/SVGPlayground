@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <title>Kavish</title>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="initial-scale = 1.0" />
+    <script src="scripts/jquery-3.3.1.min.js"></script>
+    <script src="scripts/myScript.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Homemade Apple">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ABeeZee">
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+  </head>
+  <body>
+    <div class="body-content">
+      <header class="fluid">
+        <h1 id="title">
+          <a href="/">SVG PlayGround</a>
+        </h1>
+      </header>
+      <div id="content" class="fluid translucent">
+        <svg width="500" height="100">
+            <text x="20" y="50" style="stroke: black; stroke-width: 0.5; fill: none;">SVG PlayGround</text>
+        </svg>
+      </div>
+    </div>
+    <svg width="140" height="170">
+      <title>Cat</title>
+      <desc>Stick Figure of a Cat</desc>
+      <circle cx="70" cy="95" r="50" style="stroke: black; fill: none" />
+      <circle cx="55" cy="80" r="5" stroke="black" fill="#339933" />
+      <circle cx="85" cy="80" r="5" stroke="black" fill="#339933" />
+      <g id="whiskers">
+        <line x1="75" y1="95" x2="135" y2="85" style="stroke: black;" />
+        <line x1="75" y1="95" x2="135" y2="105" style="stroke: black;" />
+      </g>
+      <use xlink:href="#whiskers" transform="scale(-1 1) translate(-140 0)" />
+      <!-- ears -->
+      <polyline points="108 62, 90 10, 70 45, 50, 10, 32, 62" style="stroke: black; fill: none;" />
+      <!-- mouth -->
+      <path d="M 80 110 L 60 110 A 5 10 0 0 0 80 110" style="stroke: black; fill: none;" />
+      <!-- nose -->
+      <path d="M 75 90 L 65 90 A 5 10 0 0 0 75 90" style="stroke: black; fill: #ffcccc" />
+    </svg>
+    <footer>Kavish Munjal 2018 &copy;</footer>
+  </body>
+</html>
